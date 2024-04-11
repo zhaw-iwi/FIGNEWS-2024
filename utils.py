@@ -11,7 +11,7 @@ logger.setLevel(logging.INFO)
 formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
 
 # Create a file handler and set the formatter
-file_handler = logging.FileHandler("openai.log")
+file_handler = logging.FileHandler("openai.log", "a", "utf-8")
 file_handler.setFormatter(formatter)
 
 # Add the file handler to the logger
