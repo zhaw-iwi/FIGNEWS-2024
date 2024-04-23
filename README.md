@@ -1,6 +1,7 @@
 # FIGNEWS-2024
 
  Context:
+
 - LM experiments (PoC: Jasmin)
 - Using ChatGPT 3.5 or 4 ), make notebook available on Github
 - Task 1 - use GPT as annotator0 to run 2-way annotation (annotator1 one of us) + arbitration on the 1800-2000 text we need to annotate
